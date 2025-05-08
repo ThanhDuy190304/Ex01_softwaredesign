@@ -1,8 +1,8 @@
-const Faculty = {
+const Class = {
   findOne: jest.fn(),
   create: jest.fn(),
   update: jest.fn(),
   destroy: jest.fn()
 };
 
-module.exports = { Faculty };
+module.exports = { Class };
